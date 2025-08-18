@@ -422,6 +422,23 @@ input::placeholder {
 }
 @media (max-width: 365px) {
   .home img {
-    width: 90vh;
+    width: 50vh;
+  }
+  .home {
+    display: flex;
+  }
+  .social-media button {
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+  }
+  .home-img img {
+    width: 50vh;
+    margin-left: 5rem;
+  }
+  #About-me {
+    padding-left: 0%;
+    padding-right: 11rem;
+    font-size: larger;
   }
 }
