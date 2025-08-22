@@ -2,7 +2,7 @@
 let cvbtn = document.querySelector(".cv");
 cvbtn.addEventListener("click", function () {
   const fileUrl =
-    "https://drive.google.com/file/d/1b2nzPLPl-aIiudOYNsaU85fHd5oy51va/view?usp=drive_link";
+    "https://drive.google.com/file/d/1b2nzPLPl-aIiudOYNsaU85fHd5oy51va/view?usp=drivesdk";
   const link = document.createElement("a");
   link.href = fileUrl;
   link.download = "CV.pdf";
