@@ -5,7 +5,7 @@ cvbtn.addEventListener("click", function () {
     "https://drive.google.com/file/d/1b2nzPLPl-aIiudOYNsaU85fHd5oy51va/view?usp=drivesdk";
   const link = document.createElement("a");
   link.href = fileUrl;
-  link.download = "CV.pdf";
+  link.download = "CV_2025.pdf";
 
   // Append link to the body, click it, then remove it
   document.body.appendChild(link);
