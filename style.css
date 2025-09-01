@@ -33,7 +33,7 @@ section {
   color: #00ffff;
 }
 .home-img img {
-  width: 50vh;
+  width: 80vh;
 }
 .social-media button {
   display: inline-flex;
@@ -402,6 +402,9 @@ input::placeholder {
   html {
     font-size: 50%;
   }
+  .home-img {
+    height: 50vh;
+  }
 
   .contact form .input-box input textarea {
     width: 100%;
@@ -421,9 +424,9 @@ input::placeholder {
   }
 }
 @media (max-width: 365px) {
-  .home img {
-    width: 50vh;
-  }
+  /* .home img {
+    width: 70vw;
+  } */
   .home {
     display: flex;
   }
@@ -433,7 +436,8 @@ input::placeholder {
     width: 4rem;
   }
   .home-img img {
-    width: 50vh;
+    width: 80vw;
+    height: 50vh;
     margin-left: 5rem;
   }
   #About-me {
