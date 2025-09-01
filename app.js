@@ -2,10 +2,10 @@
 let cvbtn = document.querySelector(".cv");
 cvbtn.addEventListener("click", function () {
   const fileUrl =
-    "https://drive.google.com/file/d/1vp1DcOAEZV0UpKNgbsoDey2RcvFR4gQj/view?usp=drive_link";
+    "https://drive.google.com/uc?export=download&id=1b2nzPLPl-aIiudOYNsaU85fHd5oy51va";
   const link = document.createElement("a");
   link.href = fileUrl;
-  link.download = "CV.pdf";
+  link.download = "CV_2025.pdf";
 
   // Append link to the body, click it, then remove it
   document.body.appendChild(link);
