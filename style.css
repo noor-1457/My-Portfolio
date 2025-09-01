@@ -446,3 +446,9 @@ input::placeholder {
     font-size: larger;
   }
 }
+@media (max-width: 355px) {
+  .home-img {
+    width: 100vw;
+    height: 70vh;
+  }
+}
